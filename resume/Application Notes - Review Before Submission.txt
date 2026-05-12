@@ -1,0 +1,23 @@
+Review before submission
+
+Important date:
+- The listing states the last application date is May 3, 2026. Today is May 7, 2026, so confirm that the posting is still accepting applications before submitting.
+
+The existing resume materials support:
+- IT service ownership and service delivery leadership for customer-facing digital platforms.
+- Stakeholder coordination across business, IT, engineering, operations, security, vendors, customers, and leadership.
+- SLA/KPI tracking, Jira/Confluence dashboards, governance forums, risk/dependency management, and continuous improvement.
+- Agile application delivery, product ownership, backlog prioritization, roadmaps, and release planning.
+- ITIL v4 certification and experience in structured service operations.
+- Customer-facing platform delivery in payments, automotive, healthcare, and IT services.
+- English professional communication and Sweden-based availability.
+
+Items to confirm before submitting:
+- Direct budget ownership for IT services.
+- Direct contract management ownership with suppliers.
+- Any formal Service Owner or Service Manager title beyond delivery/product ownership responsibilities.
+- Specific information security standards or application compliance frameworks used.
+- Willingness to work from Sandvik's Stockholm World Trade Center site or Tampere site.
+
+Positioning note:
+The resume and cover letter emphasize confirmed strengths: service ownership, customer-facing digital platforms, stakeholder coordination, SLA/reporting discipline, ITIL, agile application delivery, governance, and continuous improvement. I did not overstate unconfirmed budget or contract ownership; those are positioned as coordination, forecasting support, governance, and supplier collaboration unless Anuradha can confirm stronger direct ownership.
