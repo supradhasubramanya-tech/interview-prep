@@ -1,0 +1,199 @@
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ece9df;
+  color: #171717;
+  font-family: "Aptos", "Arial", sans-serif;
+}
+
+.poster {
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  page-break-after: always;
+  overflow: hidden;
+  background: #fbf8ee;
+}
+
+.poster::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("assets/sticky-background.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.42;
+}
+
+.poster::after {
+  content: "";
+  position: absolute;
+  inset: 13mm 12mm 12mm;
+  border-radius: 8mm;
+  background: rgba(255, 255, 250, 0.88);
+  box-shadow: 0 16px 50px rgba(27, 32, 35, 0.10);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  padding: 17mm 16mm 15mm;
+}
+
+.kicker {
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 1.2pt;
+  color: #65716a;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 2mm 0 2mm;
+  font-size: 25pt;
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+
+.subtitle {
+  margin: 0 0 6mm;
+  max-width: 160mm;
+  font-size: 10.5pt;
+  line-height: 1.32;
+  color: #374047;
+}
+
+.accent-line {
+  width: 25mm;
+  height: 2mm;
+  background: #f4c430;
+  margin: 3mm 0 6mm;
+  border-radius: 999px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+}
+
+.note {
+  min-height: 43mm;
+  padding: 5mm 5.3mm 4.5mm;
+  border-radius: 4mm 4mm 5mm 4mm;
+  background: #fff5b8;
+  box-shadow: 0 7px 15px rgba(34, 34, 25, 0.10);
+  border: 0.35mm solid rgba(42, 45, 39, 0.07);
+  break-inside: avoid;
+}
+
+.note.green {
+  background: #dfe8d9;
+}
+
+.note.gray {
+  background: #eef0ec;
+}
+
+.note.white {
+  background: #fffdf2;
+}
+
+.note.wide {
+  grid-column: 1 / -1;
+  min-height: 34mm;
+}
+
+.note h2 {
+  margin: 0 0 2.4mm;
+  font-size: 14pt;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.note p {
+  margin: 0;
+  font-size: 9.4pt;
+  line-height: 1.24;
+  color: #273035;
+}
+
+.note ul {
+  margin: 0;
+  padding-left: 4.2mm;
+}
+
+.note li {
+  margin: 0 0 1.2mm;
+  font-size: 9.1pt;
+  line-height: 1.18;
+  color: #273035;
+}
+
+.quote {
+  font-size: 10pt;
+  line-height: 1.3;
+  color: #171717;
+  font-weight: 700;
+}
+
+.micro {
+  margin-top: 3mm;
+  padding-top: 2.8mm;
+  border-top: 0.35mm solid rgba(23, 23, 23, 0.12);
+  font-size: 8.8pt;
+  line-height: 1.18;
+  color: #4f5b60;
+}
+
+.footer {
+  position: absolute;
+  z-index: 2;
+  left: 16mm;
+  right: 16mm;
+  bottom: 9mm;
+  display: flex;
+  justify-content: space-between;
+  gap: 8mm;
+  color: #68736c;
+  font-size: 8pt;
+}
+
+.badge {
+  display: inline-block;
+  padding: 1.6mm 3mm;
+  border-radius: 999px;
+  background: #171717;
+  color: #fff;
+  font-size: 8pt;
+  font-weight: 700;
+}
+
+.compact .note {
+  min-height: 38mm;
+}
+
+.compact .note li {
+  font-size: 8.8pt;
+}
+
+@media screen {
+  body {
+    padding: 20px;
+  }
+
+  .poster {
+    margin: 0 auto 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  }
+}
+
