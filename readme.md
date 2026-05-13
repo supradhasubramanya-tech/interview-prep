@@ -19,8 +19,9 @@ Then use the files in this order:
 3. `03-competency-interview-star-stories.md` - answer bank for competency-based questions.
 4. `06-behavioural-conflict-issue-handling.md` - realistic behavioural answers for conflict, difficult situations, escalations, and issue handling.
 5. `07-technical-topics-interview-notes.md` - technical fluency notes for data sources, pipelines, catalogue, CI/CD, AWS, DevOps, and security.
-6. `04-questions-to-ask.md` - questions to ask Riitta and Lotta.
-7. `05-interview-cheat-sheet-and-logistics.md` - final prep, salary, notice, and Teams checklist.
+6. `08-closing-and-employment-gap-positioning.md` - confident wording for availability, job gap, fair assessment, and closing impact.
+7. `04-questions-to-ask.md` - questions to ask Riitta and Lotta.
+8. `05-interview-cheat-sheet-and-logistics.md` - final prep, salary, notice, and Teams checklist.
 
 ## Your Main Interview Theme
 
